@@ -1,7 +1,8 @@
 import User from './User';
+import './UsersList.css';
 
 const UsersList = props => {
-    return <div>{props.UsersArray.map(user => <User name={user.name} age={user.age} />)}
+    return <div className='usersList'>{props.usersArray.map(user => <User key={user.id} name={user.name} age={user.age} />)}
     </div>
 }
 
