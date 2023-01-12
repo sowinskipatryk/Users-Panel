@@ -1,0 +1,27 @@
+.input-container {
+    margin-top: 0.5rem;
+    text-align: left;
+    display: table;
+    width: 100%;
+}
+
+.form-label {
+    display: table-cell;
+    width: 8rem;
+}
+
+.form-input {
+    margin: 1.25rem 0rem 0rem 1.25rem;
+    font-size: 1.25rem;
+    height: 2.5rem;
+    color: #5f37b6;
+    display: table-cell;
+    width: 15rem;
+    height: 2.5rem;
+    box-sizing: border-box;
+}
+
+.form-input:focus {
+    border: 0.2rem solid #5f37b6;
+    outline: none;
+  }

@@ -1,6 +1,8 @@
+import './User.css';
+
 const User = props => {
-    return <div>
-        <p>{`${props.name} (${props.age} years old)`}</p>
+    return <div className='user-div'>
+        <p className="user-p">{`${props.name} (${props.age} years old)`}</p>
     </div>
 }
 

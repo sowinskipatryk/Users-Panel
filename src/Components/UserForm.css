@@ -1,18 +1,21 @@
 .form-div {
   background-color: #3b2c58;
-  padding: 30px;
+  padding: 1rem 2rem;
+  width: 400px;
+  margin-top: 1.5rem;
 }
 
 .form-button__submit {
     background-color: #5f37b6; 
     border: none;
     color: white;
-    margin: 20px;
-    padding: 16px 32px;
+    margin: 3rem 0rem 2rem 0rem;
+    padding: 1rem 2rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1.25rem;
+    padding: 1rem 2rem;
   }
 
   .form-button__submit:hover {
